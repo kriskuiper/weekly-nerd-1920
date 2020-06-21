@@ -1,11 +1,11 @@
 module.exports = (eleventyConfig) => {
   eleventyConfig.addLayoutAlias('default', 'layouts/default.html')
 
-  eleventyConfig.addPassthroughCopy('./src/site/css')
+  eleventyConfig.addPassthroughCopy({ './src/static/css': 'css' })
 
   return {
     dir: {
-      input: 'src/site',
+      input: 'src',
       data: '_data',
       includes: '_includes',
       output: '_site'
