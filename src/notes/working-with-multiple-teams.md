@@ -1,9 +1,9 @@
 ---
-layout: "default"
-title: "Working with multiple teams"
+layout: "note"
+title: "Working with multiple teams @Funda"
 lecturer: "Lars Douwe Schuitema"
+excerpt: "Funda invited us to come work in multidisciplinary teams, building several features."
 tags: note
 ---
 
-# Working with multiple teams @Funda
 About my experience

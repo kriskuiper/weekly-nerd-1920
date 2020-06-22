@@ -1,5 +1,7 @@
 module.exports = (eleventyConfig) => {
   eleventyConfig.addLayoutAlias('default', 'layouts/default.html')
+  eleventyConfig.addLayoutAlias('note', 'layouts/note.html')
+  eleventyConfig.addLayoutAlias('thing', 'layouts/thing.html')
 
   eleventyConfig.addPassthroughCopy({ './src/static/css': 'css' })
   eleventyConfig.addPassthroughCopy({ './src/static/images': 'images' })
