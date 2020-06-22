@@ -2,6 +2,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addLayoutAlias('default', 'layouts/default.html')
 
   eleventyConfig.addPassthroughCopy({ './src/static/css': 'css' })
+  eleventyConfig.addPassthroughCopy({ './src/static/images': 'images' })
 
   return {
     dir: {
