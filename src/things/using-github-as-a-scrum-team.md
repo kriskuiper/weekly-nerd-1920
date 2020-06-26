@@ -43,9 +43,13 @@ Now when we add an issue to our project like we did before it will automatically
 ## Link issues to PR's or vice versa
 We can automate even more by using so called _linked issues_ or _linked PR's_ for that matter. You can link certain issues to a PR which in turn will close the issues if the PR is merged. I found this very helpful because it does not only give the closing ability, it will also just hint that there's a PR linked to a certain issue and that there's an issue linked to a certain PR. It makes it very easy to see what's being worked on and what may be fixed soon.
 
-{{ figure('/images/gh-projects-7', 'You will see an exclamantion mark next to an issues\' description if it has a linked PR') }}
+{{ figure('/images/gh-projects-7.png', 'After you\'ve created your PR you can link an issue to it by clicking on the \'Linked issues\' section in the sidebar.') }}
 
-{{ figure('/images/gh-projects-8', 'You will also see it in your projects where a PR icon next to an issue makes it clear that this issue has a linked PR') }}
+{{ figure('/images/gh-projects-8.png', 'You will see a PR icon next to an issues\' description if it has a linked PR.') }}
+
+{{ figure('/images/gh-projects-9.png', 'You will see an exclamantion mark next to a PR\'s description if it has a linked issue.') }}
+
+{{ figure('/images/gh-projects-10.png', 'You will also see a comment under the issue in your projects where it says one linked pull request.') }}
 
 ## Keep track of the progress by using milestones
 If you really want to dive into the nitty gritty you could even use milestones to keep track of certain progress. I've not used it yet but I can assume that you would use it to couple certain issues to certain releases or sprints (whilst then removing the _Next Sprint_ and _Current Sprint_ columns).
