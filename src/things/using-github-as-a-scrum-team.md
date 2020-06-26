@@ -50,6 +50,3 @@ We can automate even more by using so called _linked issues_ or _linked PR's_ fo
 {{ figure('/images/gh-projects-9.png', 'You will see an exclamantion mark next to a PR\'s description if it has a linked issue.') }}
 
 {{ figure('/images/gh-projects-10.png', 'You will also see a comment under the issue in your projects where it says one linked pull request.') }}
-
-## Keep track of the progress by using milestones
-If you really want to dive into the nitty gritty you could even use milestones to keep track of certain progress. I've not used it yet but I can assume that you would use it to couple certain issues to certain releases or sprints (whilst then removing the _Next Sprint_ and _Current Sprint_ columns).
