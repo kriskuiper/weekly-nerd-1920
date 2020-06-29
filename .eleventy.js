@@ -1,3 +1,5 @@
+const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
+
 module.exports = (eleventyConfig) => {
   eleventyConfig.addLayoutAlias('default', 'layouts/default.html')
   eleventyConfig.addLayoutAlias('note', 'layouts/note.html')
@@ -5,6 +7,8 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addPassthroughCopy({ './src/static/css': 'css' })
   eleventyConfig.addPassthroughCopy({ './src/static/images': 'images' })
+
+  eleventyConfig.addPlugin(syntaxHighlight)
 
   return {
     dir: {
