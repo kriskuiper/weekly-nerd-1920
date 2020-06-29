@@ -135,3 +135,5 @@ function giveUserFeedback($feedbackElement, message) {
 Writing clear acceptance criteria beforehand and writing pseudo code before starting to code helps me a lot when I need to break a problem up in smaller pieces. It also lets me think about the bigger picture, for example if I need a small overview of some data structure I will just take the time to sketch it out a bit instead of diving into the code directly. Just to clear my mind up.
 
 I hope this article helps you with solving code-related problems in the future, it certainly helps me to adhere to this way of working when I tackle code-related problems. It also helps me to stay calm since this way of working gives me the feeling that everything that needs to happen is clear to me.
+
+If you want to get in contact about my way of working you can always reach out ot me on [LinkedIn](https://www.linkedin.com/in/kris-kuiper-0b6897a2/).
